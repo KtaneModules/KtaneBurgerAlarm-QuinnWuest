@@ -158,7 +158,6 @@ GameObject:
   - component: {fileID: 4718928062386350}
   - component: {fileID: 33907912253977130}
   - component: {fileID: 23828523667093830}
-  - component: {fileID: 95853461685909468}
   - component: {fileID: 114960079757781556}
   m_Layer: 0
   m_Name: Component_PuzzleBackground
@@ -2149,7 +2148,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 26cdee844cb231740941635a5e5962c7, type: 2}
+  - {fileID: 2100000, guid: 8c0ce3b37a51ada41833beb021e6eea3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2391,7 +2390,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1176066412486518}
-  m_Mesh: {fileID: 4300000, guid: 1c46642b7f907d844bcdfcca8625afdd, type: 3}
+  m_Mesh: {fileID: 4300002, guid: 57bf7933dbd463449b015d2b27a1c328, type: 3}
 --- !u!33 &33970827642216290
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -2399,23 +2398,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1842048464661372}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!95 &95853461685909468
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1176066412486518}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 1c46642b7f907d844bcdfcca8625afdd, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!102 &102055572753557126
 TextMesh:
   serializedVersion: 3
@@ -2725,7 +2707,6 @@ MonoBehaviour:
   - {fileID: 114630522768851106}
   - {fileID: 114397374230076074}
   - {fileID: 114480570470212288}
-  - {fileID: 0}
   IsPassThrough: 0
   ChildRowLength: 3
   Highlight: {fileID: 114342421082836950}
@@ -2883,7 +2864,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1385810482006748}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9965e0bf6ed064448788b7e98a08f28, type: 3}
+  m_Script: {fileID: 11500000, guid: 0dac510612348614e8cabe25bed6568f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Module: {fileID: 114985614138966210}
@@ -2919,9 +2900,6 @@ MonoBehaviour:
   - {fileID: 4833672617711222}
   x: {fileID: 1451351642946372}
   check: {fileID: 1818646882931992}
-  TwitchHelpMessage: Use !{0} order to press the order button, and !{0} submit to
-    press submit. You can do !{0} press mayo bun tomato cheese lettuce onions pickles
-    mustard ketchup meat to press buttons. The timer is enabled on Twitch Plays.
 --- !u!114 &114397374230076074
 MonoBehaviour:
   m_ObjectHideFlags: 1

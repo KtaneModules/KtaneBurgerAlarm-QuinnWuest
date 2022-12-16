@@ -12,19 +12,14 @@ MonoBehaviour:
   m_Name: ModConfig
   m_EditorClassIdentifier: 
   id: burgerAlarm
-  title: Burger Alarm
-  description: 'The last thing you''d want in your Burger King burger is somebody''s
-    time bomb, but as it turns out, that might be what you get.
-
-
-    Original module by Marksam32. Concept by willycel123. Everything else by me.
-
-
-    Manuals:
-
-    HTML: ktane.timwi.de/HTML/Burger%20Alarm.html.
-
-    PDF: ktane.timwi.de/PDF/Burger%20Alarm.pdf.'
-  version: 
+  title: Burger Alarm [REUPLOAD]
+  author: EpicToast
+  description: "The last thing you'd want in your Burger King burger is somebody's
+    time bomb, but as it turns out, that might be what you get.\r\n\r\nOriginal module
+    by Marksam32. Concept by willycel123. Everything else by me.\r\n\r\nThis is a
+    reupload of EpicToast's module with changes and bug fixes. Unsubscribe from the
+    old version here: https://steamcommunity.com/sharedfiles/filedetails/?id=1660329102\r\n\r\n[url=https://ktane.timwi.de/HTML/Burger%20Alarm.html]Manual
+    HTML[/url]\r\n[url=https://ktane.timwi.de/PDF/Burger%20Alarm.pdf]Manual PDF[/url]"
+  version: 1.0
   outputFolder: build
-  previewImage: {fileID: 2800000, guid: 769bd56f84e12a7458d16dfdaea78e32, type: 3}
+  previewImage: {fileID: 2800000, guid: 30d59527301a74440980faf931004ed9, type: 3}
