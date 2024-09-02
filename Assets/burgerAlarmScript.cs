@@ -621,15 +621,7 @@ public class burgerAlarmScript : MonoBehaviour
 
         for (int i = 0; i < 100; i++)
         {
-            if (time.ToString().Length == 1)
-            {
-                timerText.text = "0" + time.ToString();
-            }
-
-            else
-            {
-                timerText.text = time.ToString();
-            }
+            timerText.text = time.ToString("00");
 
             time++;
             numberText.text = "";
@@ -657,7 +649,7 @@ public class burgerAlarmScript : MonoBehaviour
         while (time != 0 && currentlyOrdering)
         {
             time--;
-            timerText.text = time.ToString();
+            timerText.text = time.ToString("00");
 
             yield return new WaitForSeconds(1f);
         }
